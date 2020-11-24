@@ -1,0 +1,110 @@
+#app {
+    width: 100vw;
+    height: 100vh;
+    font-family: '微雅软黑';
+}
+
+.bottom-btn{
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  transform: translate(-50%);
+  .btn{
+    width: 350px;
+    border-radius: 7px;
+    
+  }
+}
+
+
+
+.login {
+  width: 100%;
+  height: 100%;
+  /deep/.van-field__label {
+    width:auto;
+    margin-right:5px; 
+  }
+  .van-button{
+    font-size: 14px;
+    padding: 0 5px;
+  }
+  .van-field__left-icon .van-icon, .van-field__right-icon .van-icon{
+    font-size: 20px;
+  }
+  .num {
+    float: left;
+    font-size: 16px;
+  }
+  .icon {
+    margin-top: 3px;
+    margin-left:5px; 
+  }  
+  .van-field__control{
+    font-size: 16px;
+  }
+  .login-title {
+    font-size: 24px;
+    margin: 15px 0 10px 30px; 
+  }
+  .login-operate{
+    width: 85%;
+    height: auto;
+    margin: auto;
+  }
+  .forgetpsd{
+    font-size:14px; 
+    color:#45958d;
+    text-align: right;
+  }
+  .reg{
+    font-size:14px; 
+    color:#404040;
+  }
+  .van-cell{
+    border-bottom:1px solid #dfdfdf;  
+    padding: 15px 0;
+  }
+  [class*=van-hairline]:after {
+    border:none;
+  }
+  .van-cell:not(:last-child):after{
+    border:none;
+  }  
+  .login-btn {
+    width:85%;
+    margin-top: 20px;
+    margin-left: 7.5%;
+    // height:40px;
+    color: #fff;
+    font-size: 15px;
+    border-radius:5px;
+    background: rgb(52,195,157);
+  }
+  .van-field__body{
+    height:24px;
+  }
+}
+.myaddress {
+  background: #f6f9f9;
+  height: 100%;
+  .myaddress-img {
+    height: 100px;
+    text-align: center;
+    img {
+      border-radius: 50%;
+      margin-top: 30px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .myaddress-warp {
+    background: #fff;
+  }
+  .addAddress {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+}
+
